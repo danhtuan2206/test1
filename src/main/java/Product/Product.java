@@ -7,7 +7,7 @@ public class Product implements Serializable{
     String name;
     double price;
     int quantity;
-    String origin;
+    String origin,thinh;
 
     public Product(int productId, String name, double price, int quantity, String origin) {
         this.productId = productId;
